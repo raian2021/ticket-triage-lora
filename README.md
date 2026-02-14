@@ -2,6 +2,12 @@
 Fine-Tuned LLM for IT Incident Classification & Routing
 
 ---
+## Documentation
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [API](docs/API.md)
+- [Evaluation Plan](docs/EVALUATION.md)
+- [Model Card](MODEL_CARD.md)
 
 ## Overview
 
