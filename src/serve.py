@@ -71,7 +71,11 @@ def predict(inp: TicketIn):
         )
 
     decoded = TOKENIZER.decode(out[0], skip_special_tokens=True)
+
     # Return only generated tail after "JSON:"
     tail = decoded.split("JSON:", 1)[-1].strip()
+
     parsed = extract_json(tail)
-    return {"output": parsed, "raw": tail}
+
+    return parsed
+
