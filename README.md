@@ -1,4 +1,4 @@
-# 🔎 Ticket Triage LoRA
+#  Ticket Triage LoRA
 Fine-Tuned LLM for IT Incident Classification & Routing
 
 ---
